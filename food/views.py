@@ -81,5 +81,5 @@ def delete_item(request,id):
     return render(request,'food/item-delete.html',{'item':item})
 
 
-
+print("hello")
 
